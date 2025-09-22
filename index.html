@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive HTML Page</title>
+  <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+
+
+</head>
+<body>
+
+  <h1>Welcome to My Simple interactive Page</h1>
+  <p>This page combines HTML, CSS and JavaScript. To deliver an interactive web page.</p>
+
+  <hr>
+
+  
+  <h2>Contact Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="topic">Topic:</label><br>
+    <select id="topic" name="topic">
+      <option value="feedback">Feedback</option>
+      <option value="support">Support</option>
+      <option value="general">General Question</option>
+    </select><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+
+    <input type="submit" value="Send">
+  </form>
+
+  <hr>
+
+  
+  <h2>Quick Survey</h2>
+  <form action="#" method="post">
+    <p>How did you find this site?</p>
+    <input type="radio" id="search" name="source" value="search" required>
+    <label for="search">Search Engine</label><br>
+    <input type="radio" id="friend" name="source" value="friend">
+    <label for="friend">Friend</label><br>
+    <input type="radio" id="ad" name="source" value="ad">
+    <label for="ad">Advertisement</label><br><br>
+
+    <p>Which features do you like? (Select all that apply)</p>
+    <input type="checkbox" id="simplicity" name="feature" value="simplicity">
+    <label for="simplicity">Simplicity</label><br>
+    <input type="checkbox" id="forms" name="feature" value="forms">
+    <label for="forms">Forms</label><br>
+    <input type="checkbox" id="faq" name="feature" value="faq">
+    <label for="faq">FAQ Section</label><br><br>
+
+    <label for="rating">Rate this page (1-5):</label><br>
+    <select id="rating" name="rating">
+      <option value="1">1 - Poor</option>
+      <option value="2">2</option>
+      <option value="3">3 - Average</option>
+      <option value="4">4</option>
+      <option value="5">5 - Excellent</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit Survey">
+  </form>
+
+  <hr>
+
+
+  <h2>Frequently Asked Questions</h2>
+  <details>
+    <summary>Is this page using CSS or JavaScript?</summary>
+    <p>No</p>
+  </details>
+  <details>
+    <summary>Can I submit the forms?</summary>
+    <p>Yes</p>
+  </details>
+  <details>
+    <summary>What browsers support this?</summary>
+    <p>All modern browsers support these elements.</p>
+  </details>
+
+  <hr>
+  <p>&copy; 2025</p>
+
+</body>
+</html>
